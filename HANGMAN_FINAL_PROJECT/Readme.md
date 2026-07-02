@@ -6,7 +6,7 @@ This project is a console-based implementation of the classic **Hangman Game** d
 
 The project demonstrates fundamental Python programming concepts, including loops, conditional statements, functions, lists, string manipulation, and external library integration.
 
-
+---
 
 ## Objectives
 
@@ -16,7 +16,7 @@ The project demonstrates fundamental Python programming concepts, including loop
 * Utilize external libraries for random word generation.
 * Improve problem-solving and debugging skills.
 
-
+---
 
 ## Technologies Used
 
@@ -24,7 +24,7 @@ The project demonstrates fundamental Python programming concepts, including loop
 * NLTK (Natural Language Toolkit)
 * Random Module
 
-
+---
 
 ## Dataset
 
@@ -32,7 +32,7 @@ The project uses the **English Words Corpus** from the NLTK library.
 
 The corpus provides thousands of English words, from which a random word is selected at the start of each game.
 
-
+---
 
 ## Features
 
@@ -46,21 +46,19 @@ The corpus provides thousands of English words, from which a random word is sele
 * Displays the correct word when the player loses.
 * Win and lose messages based on game outcome.
 
-
+---
 
 ## Project Structure
 
-
-Hangman-Game/
-
+```text
+HANGMAN_FINAL_PROJECT/
 │
-
 ├── hangman_project.py
-
 ├── hangman_art.py
-
 ├── Readme.md
+```
 
+---
 
 ## How the Game Works
 
@@ -79,7 +77,7 @@ Hangman-Game/
    * The player correctly guesses the entire word, or
    * All six lives are exhausted.
 
-
+---
 
 ## Game Flow
 
@@ -92,7 +90,7 @@ Hangman-Game/
 * Display the Hangman stage.
 * Determine whether the player wins or loses.
 
-
+---
 
 ## Skills Demonstrated
 
@@ -107,36 +105,40 @@ Hangman-Game/
 * Debugging
 * Problem Solving
 
-
+---
 
 ## Installation
 
 ### Clone the Repository
 
-git clone https://github.com/Vemuriharika/Hangman-Game.git
-
+```bash
+git clone https://github.com/Vemuriharika/Gaming-Projects/HANGMAN_FINAL_PROJECT.git
+```
 
 ### Install NLTK
 
-
+```bash
 pip install nltk
-
+```
 
 ### Download the Words Corpus
 
-
+```python
 import nltk
 nltk.download('words')
-
+```
 
 ### Run the Game
 
-
+```bash
 python hangman_project.py
+```
+
+---
 
 ## Sample Gameplay
 
-
+```text
 Word to guess: _______
 
 Guess the letter: a
@@ -158,7 +160,9 @@ Lives Remaining: 5
           |
           |
 =============
+```
 
+---
 
 ## Learning Outcomes
 
@@ -171,7 +175,7 @@ Through this project, I gained practical experience in:
 * Implementing game logic efficiently.
 * Writing clean and readable Python code.
 
-
+---
 
 ## Future Enhancements
 
@@ -183,6 +187,8 @@ Through this project, I gained practical experience in:
 * Build a graphical user interface using Tkinter or Pygame.
 * Package the game as a standalone executable.
 
+---
 
+## License
 
-
+This project is developed for educational and portfolio purposes. Feel free to explore, learn from, and enhance the project with appropriate attribution.
